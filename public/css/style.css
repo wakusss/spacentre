@@ -1,0 +1,82 @@
+body{
+    font-family: var(--primary-font)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-black: #212121;
+    --primary-color: #f9a392;
+    --primary-light: #fef1ef;
+    --primary-font:'Poppins', sans-serif;
+}
+a{
+    color: gray;
+    margin: .5em;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-light);
+    padding: .25em 1em;
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+    align-items: center;
+    width: 100%;
+}
+ul li a{
+    font-weight: 600;
+    color: #212121;
+}
+.main-menu-list{
+    display: flex;
+}
+ion-icon{
+    color: #3d3d3d;
+}
+#hero-section{
+    min-height: 90vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    font-weight: bolder;
+    font-size: 300%;
+}
+.logo-spa{
+    text-transform: uppercase ;
+}
+.logo-center{
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+.button-appointment{
+    padding: 1em;
+    background: var(--primary-color);
+}
+.button-appointment a{
+    color: #fff;
+    font-weight: 600;
+}
+.button-appointment:hover{
+    background: #FC9F8D;
+}
